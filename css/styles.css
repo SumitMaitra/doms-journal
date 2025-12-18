@@ -111,6 +111,15 @@ section {
     margin-top: 10px;
 }
 
+.page-title3::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 4px;
+    background: var(--primary-color);
+    margin: 10px auto 0 auto;
+}
+
 .page-title-2::after {
     content: "";
     display: block;
